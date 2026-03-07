@@ -9,7 +9,7 @@ export default function Header() {
     const t = useTranslations('nav');
 
     return (
-        <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-sm border-b">
+        <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-sm border-b select-none">
             <div className="container mx-auto px-4 py-4">
                 <nav className="flex items-center justify-between">
                     {/* Logo */}

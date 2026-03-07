@@ -4,6 +4,7 @@ import { useLocale } from 'next-intl';
 import { useRouter, usePathname } from '@/i18n/navigation';
 import { Globe } from 'lucide-react';
 import { routing } from '@/i18n/routing';
+import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
 import { Dropdown, DropdownItem } from '@/components/ui/dropdown';
 
@@ -25,7 +26,12 @@ export default function LanguageSwitcher() {
     return (
         <Dropdown
             trigger={
-                <Button variant="outline" size="sm" className="gap-1.5 select-none" aria-label="Switch language">
+                <Button
+                    variant="outline"
+                    size="sm"
+                    className="gap-1.5"
+                    aria-label="Switch language"
+                >
                     <Globe className="w-3.5 h-3.5" />
                     {LOCALE_LABELS[locale]}
                 </Button>
@@ -37,7 +43,7 @@ export default function LanguageSwitcher() {
                 <DropdownItem
                     key={loc}
                     onClick={() => switchLocale(loc)}
-                    className={locale === loc ? 'font-semibold' : ''}
+                    className={cn('cursor-pointer', locale === loc && 'font-semibold')}
                 >
                     {LOCALE_LABELS[loc]}
                 </DropdownItem>
