@@ -1,0 +1,98 @@
+{
+    "metadata": {
+        "title": "Parker Cheng - Full-Stack Developer",
+        "description": "Portfolio of Parker Cheng, Full-Stack Developer & UI/UX Designer",
+        "titleAbout": "About | Parker Cheng",
+        "titleProjects": "Projects | Parker Cheng",
+        "titleContact": "Contact | Parker Cheng"
+    },
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "contact": "Contact",
+        "showcase": "Showcase",
+        "showcaseDesc": "Featured works and projects",
+        "deepDive": "Deep Dive",
+        "deepDiveDesc": "In-depth technical topics and research",
+        "playground": "Playground",
+        "playgroundDesc": "Interactive experiments and tools",
+        "logoLabel": "Hi Parker"
+    },
+    "hero": {
+        "greeting": "Hi, I'm",
+        "name": "Parker Cheng",
+        "subtitle": "Full-Stack Developer | UI/UX Designer | Creative",
+        "description": "Passionate about crafting elegant digital experiences, focused on building intuitive and beautiful web applications",
+        "ctaContact": "Contact Me",
+        "ctaProjects": "View Projects",
+        "avatarAlt": "Parker Cheng",
+        "githubAriaLabel": "GitHub",
+        "linkedinAriaLabel": "LinkedIn",
+        "emailAriaLabel": "Email"
+    },
+    "about": {
+        "title": "About Me",
+        "description": "I'm a passionate full-stack developer with extensive front-end and back-end experience, dedicated to creating high-quality digital products and solving real-world problems. I combine technology and design to create better experiences for users.",
+        "devTitle": "Development",
+        "devDesc": "Building high-performance web applications with modern technologies",
+        "designTitle": "Design",
+        "designDesc": "Creating intuitive and beautiful user interfaces and experiences",
+        "innovateTitle": "Innovation",
+        "innovateDesc": "Continuously exploring new technologies and creative solutions"
+    },
+    "skills": {
+        "title": "Skills",
+        "description": "From initial planning to deployment, able to collaborate with teams throughout the entire process",
+        "programmingTitle": "Programming",
+        "toolsTitle": "Design Tools"
+    },
+    "projects": {
+        "title": "Featured Projects",
+        "description": "A selection of products I've built — explore the development and design stories behind each one",
+        "demoLabel": "Demo",
+        "codeLabel": "Code",
+        "items": [
+            {
+                "title": "Project Name 1",
+                "description": "A brief description of the first project, showcasing its main features and highlights"
+            },
+            {
+                "title": "Project Name 2",
+                "description": "A brief description of the second project, showcasing its main features and highlights"
+            },
+            {
+                "title": "Project Name 3",
+                "description": "A brief description of the third project, showcasing its main features and highlights"
+            }
+        ]
+    },
+    "contact": {
+        "title": "Contact Me",
+        "description": "Have a question or want to collaborate? Feel free to reach out",
+        "emailLabel": "Email",
+        "phoneLabel": "Phone",
+        "locationLabel": "Location",
+        "locationValue": "Taipei, Taiwan",
+        "form": {
+            "nameLabel": "Name",
+            "namePlaceholder": "Enter your name",
+            "nameError": "Name must be at least 2 characters",
+            "subjectLabel": "Subject",
+            "subjectPlaceholder": "Enter the subject",
+            "subjectError": "Subject must be at least 2 characters",
+            "emailLabel": "Email",
+            "emailPlaceholder": "Enter your email",
+            "emailError": "Please enter a valid email address",
+            "messageLabel": "Message",
+            "messagePlaceholder": "Enter your message...",
+            "messageError": "Message must be at least 10 characters",
+            "submitButton": "Send Message",
+            "successAlert": "Message sent successfully!",
+            "errorAlert": "Failed to send. Please try again later."
+        }
+    },
+    "footer": {
+        "copyright": "© 2025 Parker Cheng. All rights reserved."
+    }
+}

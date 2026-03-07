@@ -1,0 +1,98 @@
+{
+    "metadata": {
+        "title": "Parker Cheng - フルスタック開発者",
+        "description": "Parker Chengのポートフォリオサイト、フルスタック開発者 / UI/UXデザイナー",
+        "titleAbout": "自己紹介 | Parker Cheng",
+        "titleProjects": "プロジェクト | Parker Cheng",
+        "titleContact": "お問い合わせ | Parker Cheng"
+    },
+    "nav": {
+        "home": "ホーム",
+        "about": "自己紹介",
+        "projects": "作品",
+        "contact": "お問い合わせ",
+        "showcase": "ショーケース",
+        "showcaseDesc": "厳選した作品とプロジェクト",
+        "deepDive": "技術解説",
+        "deepDiveDesc": "深掘り技術テーマと研究",
+        "playground": "実験室",
+        "playgroundDesc": "インタラクティブな実験とツール",
+        "logoLabel": "Hi Parker"
+    },
+    "hero": {
+        "greeting": "こんにちは、私は",
+        "name": "Parker Cheng",
+        "subtitle": "フルスタック開発者 | UI/UXデザイナー | クリエイター",
+        "description": "エレガントなデジタル体験の構築に情熱を持ち、直感的で美しいウェブアプリケーション開発に注力しています",
+        "ctaContact": "お問い合わせ",
+        "ctaProjects": "作品を見る",
+        "avatarAlt": "Parker Cheng",
+        "githubAriaLabel": "GitHub",
+        "linkedinAriaLabel": "LinkedIn",
+        "emailAriaLabel": "Email"
+    },
+    "about": {
+        "title": "自己紹介",
+        "description": "フロントエンドからバックエンドまで幅広い経験を持つ、情熱的なフルスタック開発者です。高品質なデジタルプロダクトの創造と実際の課題解決に取り組んでいます。技術とデザインを組み合わせて、より良いユーザー体験を提供します。",
+        "devTitle": "開発",
+        "devDesc": "モダンな技術を活用した高性能ウェブアプリケーションの構築",
+        "designTitle": "デザイン",
+        "designDesc": "直感的で美しいUIとユーザー体験の設計",
+        "innovateTitle": "イノベーション",
+        "innovateDesc": "新しい技術とクリエイティブなソリューションの探求"
+    },
+    "skills": {
+        "title": "スキル",
+        "description": "企画段階からデプロイまで、チームと協力して一貫して対応可能",
+        "programmingTitle": "プログラミング言語",
+        "toolsTitle": "デザインツール"
+    },
+    "projects": {
+        "title": "注目のプロジェクト",
+        "description": "制作した作品の一部です。開発とデザインの詳細な制作過程をご覧ください",
+        "demoLabel": "デモ",
+        "codeLabel": "コード",
+        "items": [
+            {
+                "title": "プロジェクト名 1",
+                "description": "最初のプロジェクトの概要説明、主な機能とハイライトを紹介します"
+            },
+            {
+                "title": "プロジェクト名 2",
+                "description": "2番目のプロジェクトの概要説明、主な機能とハイライトを紹介します"
+            },
+            {
+                "title": "プロジェクト名 3",
+                "description": "3番目のプロジェクトの概要説明、主な機能とハイライトを紹介します"
+            }
+        ]
+    },
+    "contact": {
+        "title": "お問い合わせ",
+        "description": "ご質問やコラボレーションのご相談はお気軽にどうぞ",
+        "emailLabel": "メール",
+        "phoneLabel": "電話",
+        "locationLabel": "所在地",
+        "locationValue": "台北市, 台湾",
+        "form": {
+            "nameLabel": "お名前",
+            "namePlaceholder": "お名前を入力してください",
+            "nameError": "お名前は2文字以上入力してください",
+            "subjectLabel": "件名",
+            "subjectPlaceholder": "件名を入力してください",
+            "subjectError": "件名は2文字以上入力してください",
+            "emailLabel": "メールアドレス",
+            "emailPlaceholder": "メールアドレスを入力してください",
+            "emailError": "有効なメールアドレスを入力してください",
+            "messageLabel": "メッセージ",
+            "messagePlaceholder": "メッセージを入力してください...",
+            "messageError": "メッセージは10文字以上入力してください",
+            "submitButton": "送信する",
+            "successAlert": "メッセージが正常に送信されました！",
+            "errorAlert": "送信に失敗しました。後でもう一度お試しください。"
+        }
+    },
+    "footer": {
+        "copyright": "© 2025 Parker Cheng. All rights reserved."
+    }
+}

@@ -1,0 +1,98 @@
+{
+    "metadata": {
+        "title": "鄭雲修 - 全端開發者",
+        "description": "鄭雲修的個人作品集網站，全端開發者 / UI/UX 設計師",
+        "titleAbout": "關於我 | 鄭雲修",
+        "titleProjects": "作品集 | 鄭雲修",
+        "titleContact": "聯絡我 | 鄭雲修"
+    },
+    "nav": {
+        "home": "首頁",
+        "about": "關於",
+        "projects": "作品",
+        "contact": "聯絡",
+        "showcase": "精選作品",
+        "showcaseDesc": "展示各類作品與專案",
+        "deepDive": "技術深探",
+        "deepDiveDesc": "深入技術專題與研究",
+        "playground": "實驗室",
+        "playgroundDesc": "互動實驗與小工具",
+        "logoLabel": "Hi Parker"
+    },
+    "hero": {
+        "greeting": "嗨，我是",
+        "name": "鄭雲修",
+        "subtitle": "全端開發者 | UI/UX 設計師 | 創意工作者",
+        "description": "熱愛創造優雅的數位體驗，專注於打造直觀且美觀的網頁應用程式",
+        "ctaContact": "聯絡我",
+        "ctaProjects": "查看作品",
+        "avatarAlt": "鄭雲修",
+        "githubAriaLabel": "GitHub",
+        "linkedinAriaLabel": "LinkedIn",
+        "emailAriaLabel": "Email"
+    },
+    "about": {
+        "title": "關於我",
+        "description": "我是一名充滿熱情的全端開發者，擁有豐富的前後端開發經驗，致力於創造出優質的數位產品並解決實際問題。我結合技術與設計的力量，為使用者創造更好的體驗。",
+        "devTitle": "開發",
+        "devDesc": "使用現代化技術打造高效能的網頁應用程式",
+        "designTitle": "設計",
+        "designDesc": "創造直覺且美觀的使用者介面與使用體驗",
+        "innovateTitle": "創新",
+        "innovateDesc": "持續探索新技術與創意解決方案來解決問題"
+    },
+    "skills": {
+        "title": "技能專長",
+        "description": "從企畫初期到軟體開發上線，都能與團隊合作完成",
+        "programmingTitle": "程式語言",
+        "toolsTitle": "設計工具"
+    },
+    "projects": {
+        "title": "精選作品",
+        "description": "以下是我所創建的部分產品，一窺幕後、前往詳細的開發與設計歷程",
+        "demoLabel": "Demo",
+        "codeLabel": "Code",
+        "items": [
+            {
+                "title": "專案名稱 1",
+                "description": "這是第一個專案的簡短描述，展示專案的主要功能與特色"
+            },
+            {
+                "title": "專案名稱 2",
+                "description": "這是第二個專案的簡短描述，展示專案的主要功能與特色"
+            },
+            {
+                "title": "專案名稱 3",
+                "description": "這是第三個專案的簡短描述，展示專案的主要功能與特色"
+            }
+        ]
+    },
+    "contact": {
+        "title": "聯絡我",
+        "description": "有任何問題或想合作？歡迎留言詢問與聯繫我",
+        "emailLabel": "電子郵件",
+        "phoneLabel": "電話",
+        "locationLabel": "地點",
+        "locationValue": "台北市, 台灣",
+        "form": {
+            "nameLabel": "姓名",
+            "namePlaceholder": "請輸入您的姓名",
+            "nameError": "姓名至少需要 2 個字元",
+            "subjectLabel": "主旨",
+            "subjectPlaceholder": "請輸入主旨",
+            "subjectError": "主旨至少需要 2 個字元",
+            "emailLabel": "電子郵件",
+            "emailPlaceholder": "請輸入電子郵件",
+            "emailError": "請輸入有效的電子郵件地址",
+            "messageLabel": "留言內容",
+            "messagePlaceholder": "請輸入您的訊息...",
+            "messageError": "留言內容至少需要 10 個字元",
+            "submitButton": "寄出訊息",
+            "successAlert": "訊息已成功發送！",
+            "errorAlert": "發送失敗，請稍後再試。"
+        }
+    },
+    "footer": {
+        "copyright": "© 2025 鄭雲修. All rights reserved."
+    }
+}
