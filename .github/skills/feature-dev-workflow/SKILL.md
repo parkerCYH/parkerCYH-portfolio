@@ -20,7 +20,7 @@ The user must explicitly say **"可以開始"** (or equivalent confirmation) bef
 
 ## Step 1 — Create the Dev Plan Document
 
-Create a markdown file at the project root named `DEV_<FEATURE_NAME>.md` (e.g., `DEV_CONTACT_PAGE.md`).
+Create a markdown file at the project root named `docs/DEV_<FEATURE_NAME>.md` (e.g., `docs/DEV_CONTACT_PAGE.md`).
 
 ### Template
 
@@ -74,7 +74,7 @@ List any new keys to add to `messages/{zh-TW,en,ja}.json`.
 After creating the dev plan, **stop**. Do not write any implementation code.
 
 Present a summary to the user:
-> "Dev plan created at `DEV_<FEATURE_NAME>.md`. Please review and say **可以開始** when ready."
+> "Dev plan created at `docs/DEV_<FEATURE_NAME>.md`. Please review and say **可以開始** when ready."
 
 ---
 
@@ -116,10 +116,19 @@ Follow the steps in the dev plan exactly. Key conventions for this project:
 
 ## Step 5 — Verify
 
-- [ ] Run `pnpm lint` — no errors
-- [ ] Run `pnpm build` — builds successfully
-- [ ] Run the individual E2E test script (e.g., `pnpm test:e2e:<feature-slug>`)
-- [ ] All test cases pass
+Run the following **in order**. All three must pass before the task is considered done.
+
+```bash
+pnpm tsc        # No TypeScript errors
+pnpm lint       # No ESLint errors
+pnpm test:e2e:<feature-slug>   # All E2E tests pass
+```
+
+- [ ] `pnpm tsc` — exits with code 0
+- [ ] `pnpm lint` — exits with code 0
+- [ ] `pnpm test:e2e:<feature-slug>` — all test cases pass
+
+If any step fails, fix it before finishing. Do not skip or suppress errors.
 
 ---
 
