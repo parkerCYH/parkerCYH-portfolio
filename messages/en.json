@@ -54,8 +54,8 @@
         "codeLabel": "Code",
         "items": [
             {
-                "title": "Project Name 1",
-                "description": "A brief description of the first project, showcasing its main features and highlights"
+                "title": "Weather Dashboard",
+                "description": "A real-time weather dashboard that visualizes temperature, humidity, wind speed, and forecasts for multiple locations using interactive chart-based displays"
             },
             {
                 "title": "Project Name 2",

@@ -8,16 +8,16 @@ const programmingSkills = [
     'Python',
     'PostgreSQL',
     'MongoDB',
+    'Redis',
 ];
 
 const designTools = [
     'Figma',
-    'Adobe XD',
     'Photoshop',
-    'Illustrator',
     'Git',
     'Docker',
     'AWS',
+    'Vercel',
     'CI/CD',
     'Agile',
 ];
